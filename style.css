@@ -1,0 +1,40 @@
+.centpoint {
+  width: 100%;
+  height: 100vh;
+  background-color: gainsboro;
+  margin: auto;
+}
+
+.container {
+  width: 75%;
+  height: 100%;
+  background-color: rgb(34, 34, 34);
+  color: aliceblue;
+}
+.inputsection {
+  display: flex;
+  background-color: aqua;
+}
+.inputsection input {
+  flex: 1;
+}
+.listsection {
+  margin: 50px;
+  /* background-color: rgb(98, 112, 108); */
+}
+.listsection ul li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px;
+}
+.listsection ul li .closer {
+  background-color: rgb(231, 60, 29);
+  padding: 10px;
+  border: 5px 5px;
+}
+.listsection ul li .done {
+  text-decoration: line-through;
+}
+span {
+  border: 10px;
+}
